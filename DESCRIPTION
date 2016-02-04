@@ -1,0 +1,13 @@
+Package: vclTest
+Type: Package
+Title: Tests that viennacl is working correctly
+Version: 1.0
+Date: 2016-02-04
+Author: Charles Determan
+Maintainer: Charles Determan <cdetermanjr@gmail.com>
+Description: Currently only tests basic gemm
+License: GPL (>= 2)
+Imports:
+    Rcpp (>= 0.11.6)
+LinkingTo: Rcpp, RViennaCL, BH
+RoxygenNote: 5.0.1
